@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>CarThings: Collection of car related knowledge</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-sm-3 logo"><img src="images/logo.png" alt="CarThings " height="100 px"></div>
+			<div class="col-sm-9 tagline">Best knowledge about cars.</div>
+		</header>
+		<div class="row">
+			<nav class="navbar navbar-default" role="navigation">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navbar">
+			      <ul class="nav navbar-nav">
+
+          <!-- To be fixed -->
+			        <li><a href="index.html">Home</a></li>
+			        <li ><a href="brands.html">Large Brands</a></li>
+			        <li class="active"><a href="contact.html">Contact</a></li>
+			      </ul>
+			    </div><!-- end navbar-collapse -->
+			  </div><!-- end container-fluid -->
+			</nav>
+		</div>
+		
+        <div class="row">
+			<h2>Contact Me</h2>
+			<form role="form">
+		        <fieldset>
+		          <legend>Have a question or want to share your beautiful car?</legend>
+		            <div class="form-group">
+		          	    <label for="name" class="col-sm-2">Your Name</label>
+		          	    <div class="col-sm-10">
+		          		    <input type="text" name="name" class="form-control">
+		          	    </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2">You Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="email" class="form-control">
+                        </div>
+                    </div>
+                
+			       <div class="form-group">
+			          <label for="cartype" class="control-label">Your car type:</label>
+			          <select name="cartyype" size="1" class="form-control">
+			            <option selected>Select one...</option>
+			            <option value="sedan">Sedan</option>
+			            <option value="SUV">SUV</option>
+			            <option value="Van">Van</option>
+			            <option value="UTE">UTE</option>
+			            <option value="cab">Cab Chasis</option>
+			            <option value="PMV">People Mover</option>
+			            <option value="Bus">Bus</option>
+			          </select>
+                    </div>
+                    
+                    <div class="fileupload fileupload-new" data-provides="fileupload">
+                        <label class="control-label">Your car image:</label>
+                        <div>
+                          <span class="btn btn-file"><span class="fileupload-new"></span><input type="file" /></span>
+                        </div>
+                      </div>
+
+		      		<div class="form-group">
+			          <label for="comments" class="control-label">Comments:</label>
+			          <textarea name="comments" class="form-control" rows="3" data-toggle="tooltip" title="Your comments are highly appreciated" data-placement="bottom"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="checkbox">
+			                <label><input type="checkbox" value="">I agree to share my personal information</label>
+                        </div>
+                    </div>
+
+			        <div class="form-group">
+		          		<button type="submit" class="btn btn-primary">Submit</button>
+		      		</div>
+		        </fieldset>
+		    </form>
+
+		<footer class="row siteinfo">
+			<p>Contents of this webpage is fictious and only be produced with regards to assignment 1, ISYS2048 Developing Mobility Solutions only. No other use is acceptable.</p>
+		</footer>
+	</div><!-- end container -->
+   
+   
+<!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
